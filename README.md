@@ -21,7 +21,7 @@ Dataset comes from Kaggle. It contains 5856 samples divided into train and test 
 
 Due to low number of samples data augmentation is being used to tackle the imbalance problem by presenting larger number of cases to the model.
 
-Models are convolutional neural networks compromising of different number of convolutional layers. First two models are built from scratch. Third one is using pre-trained model provided by Keras - DenseNet121. Last one uses is a fine tuning for third model - only last layers of pre-trained DenseNet121 model were trained on my dataset. 
+Models are convolutional neural networks compromising of different number of convolutional layers. First two models are built from scratch. Third one is using pre-trained model provided by Keras - DenseNet121. Last one is a fine tuning for third model - only last layers of pre-trained DenseNet121 model were trained on my dataset. 
 
 ## Result
 
