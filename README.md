@@ -25,8 +25,8 @@ Models are convolutional neural networks compromising of different number of con
 
 ## Result
 
-The second model attained good capabilities having only 3,715,169 parameters and size of 42,7 MB.
-
+The second model with custom CNN attained good capabilities having only 3,715,169 parameters and size of 42,7 MB. It had accuracy equal to 0.904 and recall close to 100% on test dataset.
+The final model that used pre-trained DenseNet121 model with 7,168,833 parameters achieved even better performance with accuracy of 0,929 and recall equal to 100%.
 
 ## Libriaries used
 - ML: Tensorflow / Keras
